@@ -10,6 +10,7 @@ import { CreateTodoButton } from '../CreateTodoButton';
 import { TodoTitle } from '../TodoTitle';
 import { TodoContext } from '../TodoContext';
 import { Modal } from '../Modal';
+import { TodoForm } from '../TodoForm';
 
 
 function AppUI() {
@@ -58,11 +59,13 @@ function AppUI() {
               
           
     
-          <CreateTodoButton />
+          <CreateTodoButton 
+            setOpenModal={setOpenModal}
+          />
 
           {openModal && (
             <Modal>
-              Texto de prueba
+              <TodoForm />
             </Modal>
           )}
     
