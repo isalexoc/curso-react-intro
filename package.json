@@ -34,7 +34,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/isalexoc/curso-react-intro",
+  "homepage": "http://isalexoc.github.io/curso-react-intro",
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^5.0.0"
